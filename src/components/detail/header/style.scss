@@ -1,0 +1,25 @@
+.am-card {
+    .am-card-header-content {
+        color: #bababa;
+        #desc {
+            margin-left: 10px;
+        }
+        h3 {
+            line-height: 40px;
+            color: #000;
+        }
+        div {
+            line-height: 30px;
+        }
+        p {
+            line-height: 40px;
+        }
+        img {
+            width: 40%;
+        }
+    }
+    .am-card-body {
+        color: #bababa;
+        line-height: 24px;
+    }
+}

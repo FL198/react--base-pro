@@ -1,0 +1,26 @@
+#city{
+    background-color: #fff;
+    h1{
+        text-align: center;
+        margin: 0;
+        font-weight: normal;
+        line-height: 100px;
+        border-bottom: 1px solid #eee;
+    }
+    h3{
+        padding: 15px;
+        font-size: 20px;
+    }
+    ul{
+        padding: 0 12px;
+        li{
+            margin: 5px;
+            padding: 8px 0;
+            font-size: 18px;
+            text-align: center;
+            width: 30%;
+            display: inline-block;
+            border: 1px solid #ccc;
+        }
+    }
+}

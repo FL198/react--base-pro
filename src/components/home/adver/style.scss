@@ -1,0 +1,19 @@
+#adver {
+    margin-top: 20px;
+    h3 {
+        color: #666;
+        background-color: #fff;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    ul {
+        background-color: #fff;
+        li {
+            width: 33%;
+            display: inline-block;
+            img {
+                width: 80%;
+            }
+        }
+    }
+}

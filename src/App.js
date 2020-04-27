@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {HashRouter} from 'react-router-dom'
+import MyRoute from '@/router'
+import './App.css'
+import '@/static/css/common.css'
+import '@/static/css/font.css'
+import Tab from '@/components/tab'
+import ToogleNav from '@/components/navToggle'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <HashRouter>
+      <ToogleNav></ToogleNav>
+      <MyRoute></MyRoute>
+      <Tab></Tab>
+    </HashRouter>
+  )
 }
 
 export default App;

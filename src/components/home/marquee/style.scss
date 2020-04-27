@@ -1,0 +1,19 @@
+.slider-frame {
+    height: 200px !important;
+    text-align: center;
+    background-color: #fff;
+    ul {
+        padding-top: 12px;
+        list-style-type: none;
+        li {
+            p{
+                color: #666;
+            }
+            width: 20%;
+            display: inline-block;
+            img {
+                width: 70%;
+            }
+        }
+    }
+}

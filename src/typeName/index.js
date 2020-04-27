@@ -1,0 +1,1 @@
+export const CHOOSECITY_TYPE = 'CHOOSECITY_TYPE'

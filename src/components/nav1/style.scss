@@ -1,0 +1,23 @@
+.am-navbar-light {
+    width: 100%;
+    position: fixed;
+    z-index:10;
+    top: 0;
+    background-color: #cf0722;
+    color: #fff;
+    svg {
+        vertical-align: bottom;
+        margin-left: 3px;
+    }
+    .am-search {
+        width: 200px;
+        padding: 0;
+        background-color: transparent;
+        .am-search-input {
+            border-radius: 15px;
+        }
+        .am-search-cancel {
+            display: none;
+        }
+    }
+}

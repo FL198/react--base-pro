@@ -1,0 +1,27 @@
+#comment{
+    margin-top: 15px;
+    h3{
+        padding: 10px;
+        color:#666;
+    }
+    .am-list-content{
+        div{
+            display: inline-block;
+            margin: 0 5px;
+            p{
+                color: #666;
+            }
+        }
+        .icon-user{
+            vertical-align: top;
+        }
+    }
+    .am-list-item{
+        p{
+            font-size: 16px;
+            line-height: 32px;
+        }
+        padding: 5px;
+        border-bottom: 1px solid #eee;
+    }
+}

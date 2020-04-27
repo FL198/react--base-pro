@@ -1,0 +1,25 @@
+#list{
+    .am-list-header{
+        color: #666;
+        font-size: 18px;
+    }
+    #title{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    #price{
+        color: #A80B2C;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    #sale{
+        margin-top: 12px;
+    }
+    .am-list-thumb{
+        img{
+            width: 85px;
+            height: 80px;
+        }
+    }
+}
